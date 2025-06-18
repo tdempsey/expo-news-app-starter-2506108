@@ -16,6 +16,19 @@ This is a starter template for the expo news app tutorial on my YouTube channel.
     npx expo start
    ```
 
+### Backend server
+
+This repository now includes a small Express backend for managing news stories.
+
+1. Install server dependencies (already covered by `npm install`).
+2. Start the server:
+
+   ```bash
+   npm run start-server
+   ```
+
+   The server listens on port `3000` by default and exposes a REST API at `/news`.
+
 Extra dependencies added here
 
 - [Axios](https://www.npmjs.com/package/axios)
